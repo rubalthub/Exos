@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(./assets/Pacifico-font.ttf);
+}
+
+@font-face {
+    font-family: Handwriting;
+    src: url(./assets/handwriting-font.ttf);
+}
+
+@font-face {
+    font-family: Titles;
+    src: url(./assets/Titles-font.ttf);
+}
+
+@font-face {
+    font-family: URL;
+    src: url(./assets/url-font.ttf);
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: #9bc3ff;
+    text-shadow: 5px 5px 5px #ffffff33;
+    text-align: center;
+    margin: 0%;
+}
+
+h2 {
+    font-family: handwriting;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px;
+    text-align: center;
+    margin: 0 0 60px 0; padding-bottom: 5px;
+    border: 2px solid;
+    border-radius: 0 0 50% 50%;
+    margin-inline-start: 40%;
+    margin-inline-end: 40%;
+}
+
+h3 {
+    font-family: titles;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px;
+    text-align: center;
+    margin: 0%;
+}
+.HTML,
+.CSS,
+.Media,
+.Youtube,
+.Python {
+    border: 1px solid;
+    border-radius: 5%;
+    margin: 10px;
+    background-color: rgba(0, 255, 255, 0.459);
+}
+
+body {
+    background: url(./assets/bg.jpg) center/cover fixed;
+}
+
+ul {
+    padding-inline-start: 0;
+    font-family: URL;
+    text-align: center;
+}
+
+a:link{
+    color: rgba(87, 75, 255, 0.808);
+}
+
+a:visited{
+    color: rgba(87, 75, 255, 0.808);
+}
+
+a:hover{
+    color: beige;
+}
+
+.link {
+    border: 5px solid;
+    font-size: 1.5rem;
+    padding: 2px;
+    margin: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* border: 5px solid; */
+}

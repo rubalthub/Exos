@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titre d'onglet -->
+    <title>cours html</title>
+    <!--logo onglet-->
+    <link rel="shortcut incon" href="logo html.png">
+</head>
+<header>
+    <div>
+        <h1>Texte - titre h1</h1>
+        <p>texte basique <em>texte en italique</em> <strong>texte en gras</strong>
+            <span>l'élément en span ne revient pas à la ligne</span>
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat quas ipsa iusto aliquid tenetur vero assumenda quam repellendus recusandae facilis aspernatur at nam, magnam qui, voluptatibus perferendis perspiciatis minus laborum, corporis ea autem hic. Fugit, nisi. Eligendi totam rem deleniti. Iusto laboriosam ducimus rerum porro a molestias, nihil dicta.
+
+        </p>
+    </div>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam amet molestiae cumque distinctio, impedit enim magnam maiores dolorem, nobis dolorum quae saepe veniam vero consequatur nulla voluptates ex iste error!</p>
+    </div>
+</header>
+<body>
+    <section>
+        <div>
+            <h2>photo - h2</h2>
+            <img src="photo clavier.jpg" height="200" alt="photo clavier">
+        </div>
+        <div>
+            <h3>listes - h3</h3>
+            <ul>
+                <li>UL = unordered list</li>
+                <li>UL = unordered list</li>
+                <li>UL = unordered list</li>
+            </ul>
+            <ol>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+            </ol>
+        </div>
+        <div>
+            <h4>tableaux - h4</h4>
+            <table border="1" width="75%">
+                <!--légende-->
+                <caption>Populations d'Europe</caption>
+                <!--En tête-->
+             <thead>
+                 <tr>
+                    <th>Population</th>
+                    <th>Densité</th>
+                    <th>Richesse</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5> <span>&#10154;</span>Liens - h5</h5>
+            <ul>
+            <li><a href="https://htmlcheatsheet.com" target="\blank">CheatSheet</a></li>
+            <li><a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="\blank">Icones en HTML</a></li>
+            <li><a href="https://pixabay.com/fr/" target="\blank">Banque Images et Vidéos</a></li>
+            <li><a href="https://www.pexels.com/fr-fr/" target="\blank">Banque Photos</a></li>
+            <li><a href="page html vide.html">Ne pas cliquer ici</a></li>
+        </ul>    
+        </div>
+        <div>
+            <h6>Vidéo - h6</h6>
+                <video src="vidéo d'orchidée.mp4" autoplay muted loop height="200" alt="vidéo d'ochidée"></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post">
+           <label for="name">nom :</label> 
+           <input id="name" type="text" placeholder="entrez votre nom">
+           <br>
+           <label for="age">age :</label>
+           <input id="age" type="number" min="0" max="99" value="18" step="1">
+           <br>
+           <!--Input select-->
+           <label for="gender">genre :</label>
+           <select id="gender">
+               <option value="homme">Homme</option>
+               <option value="Femme">Femme</option>
+               <option value="Ind">Ind</option>
+            </select>
+               <br>
+               <!--Input radio-->
+               <div>
+                   <input type="radio" name="type" id="Human">
+                   <label for="Human">Humain</label>
+                   <input type="radio" name="type" id="Dog" checked>
+                   <label for="Dog">Chien</label>
+                   <input type="radio" name="type" id="Cat">
+                   <label for="Cat">Chat</label>
+               </div>
+               <!--Zonde de texte-->
+               <textarea cols="30" rows="10" placeholder="Entrez votre demande ici"></textarea>
+               <br>
+               <!--Input checkbox-->
+               <label><input type="checkbox"/>Accepter les CGV</label>
+               <br>
+               <input type="submit" value="Valider">
+
+           
+        </form>
+    </section>
+    <br><!--Mail et envoi de fichier-->
+    <footer>
+        <a href="mailto:rubalthub@gmail.com">Ecrivez-moi !</a>
+        <br>
+        <a href="notice.txt" download="nom-du-fichier">Télécharger la notice</a>
+    </footer>
+
+</body>
+</html>
